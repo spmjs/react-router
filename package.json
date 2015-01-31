@@ -60,5 +60,18 @@
     "route",
     "routes",
     "router"
-  ]
+  ],
+  "spm": {
+    "main": "dist/react-router.js",
+    "dependencies": {
+      "react": "0.12.x",
+      "qs": "2.3.3"
+    },
+    "ignore": [
+      "modules",
+      "docs",
+      "examples",
+      "scripts"
+    ]
+  }
 }

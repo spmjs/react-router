@@ -1,4 +1,4 @@
-var ReactRouter =
+module.exports =
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -1454,7 +1454,7 @@ var ReactRouter =
 /* 17 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = React;
+	module.exports = require('react');
 
 /***/ },
 /* 18 */
